@@ -67,7 +67,7 @@ $(document).ready(function() {
                  $(".counter1").text("you have left  " + (num - wrongGuesses));
             }
            
-            $("#hangman").attr("src", "./assets/img/" + wrongGuesses + ".png");
+            $("#hangman").attr("src", "assets/img/" + wrongGuesses + ".png");
             
         }
 
